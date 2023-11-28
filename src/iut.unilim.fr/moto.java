@@ -1,8 +1,8 @@
 class Moto extends Vehicule {
     private boolean aUnTopCase;
 
-    public Moto(String marque, String modèle, int année, boolean aUnTopCase) {
-        super(marque, modèle, année);
+    public Moto(String marque, String modele, int année, boolean aUnTopCase) {
+        super(marque, modele, année);
         this.aUnTopCase = aUnTopCase;
     }
 
